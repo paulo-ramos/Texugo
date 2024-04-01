@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{359F5F09-2D9B-4E66-B1C8-4A075738533B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texugo.Login.Api", "Login\Texugo.Login.Api\Texugo.Login.Api.csproj", "{B794DF5D-0748-44C5-B007-802CF02A9263}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texugo.Login.Core", "Login\Texugo.Login.Core\Texugo.Login.Core.csproj", "{77ED7D3C-9EBD-4F25-B266-E2DA4EB43293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texugo.Login.Infraestrutura", "Login\Texugo.Login.Infraestrutura\Texugo.Login.Infraestrutura.csproj", "{DFB8DB2A-04E3-4428-ACED-95C4830CB2F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B794DF5D-0748-44C5-B007-802CF02A9263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B794DF5D-0748-44C5-B007-802CF02A9263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B794DF5D-0748-44C5-B007-802CF02A9263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B794DF5D-0748-44C5-B007-802CF02A9263}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ED7D3C-9EBD-4F25-B266-E2DA4EB43293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ED7D3C-9EBD-4F25-B266-E2DA4EB43293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ED7D3C-9EBD-4F25-B266-E2DA4EB43293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ED7D3C-9EBD-4F25-B266-E2DA4EB43293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB8DB2A-04E3-4428-ACED-95C4830CB2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB8DB2A-04E3-4428-ACED-95C4830CB2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB8DB2A-04E3-4428-ACED-95C4830CB2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB8DB2A-04E3-4428-ACED-95C4830CB2F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B794DF5D-0748-44C5-B007-802CF02A9263} = {359F5F09-2D9B-4E66-B1C8-4A075738533B}
+		{77ED7D3C-9EBD-4F25-B266-E2DA4EB43293} = {359F5F09-2D9B-4E66-B1C8-4A075738533B}
+		{DFB8DB2A-04E3-4428-ACED-95C4830CB2F0} = {359F5F09-2D9B-4E66-B1C8-4A075738533B}
+	EndGlobalSection
+EndGlobal
